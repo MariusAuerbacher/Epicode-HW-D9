@@ -18,7 +18,6 @@ function area(l1, l2) {
 let l1 = 5;
 let l2 = 10;
 
-return result 
 
 
 /* WRITE YOUR ANSWER HERE */
@@ -127,9 +126,9 @@ reverseString("Strive");
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
 */
 function upperFirst(aStringAgain){
-  var splitStr = aStringAgain.toLowerCase().split(" ");
+  let splitStr = aStringAgain.toLowerCase().split(" ");
 
-  for (var i = 0; i < splitStr.length; i++) {
+  for (let i = 0; i < splitStr.length; i++) {
     if (splitStr.length[i] < splitStr.length) {
       splitStr[i].charAt(0).toUpperCase();
     }
@@ -161,7 +160,7 @@ function giveMeRandom(n) {
   let arrWithNums = [];
   
   for(i = 0; i < n; i++) {
-      arrWithNums.push(Math.floor(Math.random() * 10)); 
+      arrWithNums.push(Math.floor(Math.random() * 11)); 
   }
   
   return arrWithNums;
